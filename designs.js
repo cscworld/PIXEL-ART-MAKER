@@ -9,13 +9,13 @@ function makeGrid(){
     canvas.children().remove();
 
     //To dynamically add table row base on width
-    for (var x =1; x <= height; x++) {
+    for (let x =1; x <= height; x++) {
     canvas.append('<tr></tr>');
     }
         canvasCell=$('tr');
 
     //To dynamically add table colum base on widths
-    for(var y = 1; y <= width; y++){
+    for(let y = 1; y <= width; y++){
         canvasCell.append('<td></td>');
     }
       assign=canvas.find('td');
