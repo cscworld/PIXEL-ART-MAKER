@@ -20,7 +20,7 @@ function makeGrid(){
     }
       assign=canvas.find('td');
 
-    //to set the  the color picked
+    //to set the color picked
     assign.click(function(){
         color = $('#colorPicker').val();
         $(this).css('background-color',color);
